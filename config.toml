@@ -1,0 +1,397 @@
+# Page settings
+
+baseURL = "https://sanjay1625.github.io/"
+languageCode = "en"
+title = "SK Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Sanjay Kumar"
+    description = "SK Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Sanjay Kumar"
+        tagline = "Data Science | Machine Learning | Analytics"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "San Diego"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+1 682-561-6334"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "kumarsanjay.analytics@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "www.brilliantanalytics.us"
+        text = "Brilliant Analytics Blog"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://public.tableau.com/profile/datas07#!/"
+        text = "Tableau Profile"
+
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python,SQL,R"
+        [[params.skills.list.items]]
+        details = "SQL Server,MySQL, Sybase, Oracle , SAP HANA, MongoDB, PostgreSQL"
+        [[params.skills.list.items]]
+        details = "Azure, AWS (S3, Athena, QuickSight, RDS, DynamoDB, Lambda, Redshift)"
+        [[params.skills.list.items]]
+        details = "Tableau, PowerBI,SSRS"
+        [[params.skills.list.items]]
+        details = "AWS Sage Maker, DataRobot, Azure Machine Learning studio,KNIME"
+        [[params.skills.list.items]]
+        details = "SSIS, Talend, Alteryx"
+        [[params.skills.list.items]]
+        details = "Apache Spark, Apache Hive, HBase"
+        [[params.skills.list.items]]
+        details = "Alation,Dremio,Google Analytics"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MS in Information Systems (Business Analytics)"
+        university = "University of Texas at Arlignton"
+        dates = "2016 - 2017"
+        [[params.education.list]]
+        degree = "Master of Business Administration (Finance)"
+        university = "Symbiosis International University (SIU)"
+        dates = "2011 - 2013"
+        [[params.education.list]]
+        degree = "Bachelor of Engineering (Electronics & Comm)"
+        university = "University of Pune"
+        dates = "2004 - 2008"
+
+
+
+    [params.diploma]
+        enable = true
+        
+        
+        [[params.diploma.list]]
+        name = "Massachusetts Institute of Technology (MIT)"
+        body = "Machine Learning"
+        date = "2020"
+        [[params.diploma.list]]
+        name = "UC Berkeley School of Information"  
+        body = "Artificial Intelligence Strategy"
+        date = "2020"
+
+        [[params.diploma.list]]
+        name = "Harvard Business School(HBS)"  
+        body = "Business Analytics"
+        date = "2019"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "German"
+        level = "Begineer"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Data Science Professional over 8 years of experience working with  Machine Learning (ML) / Artificial Intelligence (AI) Techniques ,SQL Databases, Analytics & Visualization - analyzing source data artifacts & aligning with problem / use case statement, assessment of relevant domain idiosyncrasies, data extraction, cleansing, data-mining, visualization, feature engineering & potential dimensionality reduction, algorithm estimation, validation sequencing and deployment - to drive progressive, value added, business capability. My technical expertise has been strengthened by exposure to a wide variety of industries, business units and structured / unstructured data archaeologies: Manufacturing, Finance, Insurance & Healthcare"
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Machine Learning & Data Engineer"
+        dates = "2017 - Present"
+        company = "Large State-Wide Health Insurance Payer"
+        details = "Project : Customer Churn Prediction Using Claims, Membership and Claritas Prizm data(SDoH) : The project focuses on the design and development of a prediction model for customer churn which providing insight on churn behavior"
+        [[params.experience.list.items]]
+        details = "Implemented data warehousing solution for ingesting Social determinants of Healthcare (SDoH) i.e. Claritas Prizm data and membership data on MS SQL Server & built Tableau Dashboards for visualizing and surfacing relevant trends, patterns & relationships."
+        [[params.experience.list.items]]
+        details = "Dataset corrected for imbalanced data & identified important churning variables & characteristics for predictive model."
+        [[params.experience.list.items]]
+        details = "Segmented the customers based on features like region, income, and age. Utilized Clustering algorithms like K-means to find the trends (Individual vs Groups plans)."
+        [[params.experience.list.items]]
+        details = "Implemented various Machine Learning algorithms like Linear & Logistic Regression, Naïve Bayes, Decision Trees, Random Forests and Gradient Boost."
+        [[params.experience.list.items]]
+        details = "Used Cross Validation and metrics like Precision, Recall, F1 score, ROC to evaluate model performance."
+        
+        
+        [[params.experience.list]]
+        title = "Machine Learning Engineer"
+        dates = "July 2019-Nov 2019"
+        company = "US Defence Company"
+        details = "Project : Workforce Planning / HR and People Analytics: Create a business strategy into human capital needs and develop the automated tools required to facilitate- Ensure an available pool of talent, Optimize Human Capital Investments, Targeting investments in recruitment and retention "
+        [[params.experience.list.items]]
+        details = "Worked with different Business stakeholders across different verticals and participated in requirement gathering sessions to understand the business needs."
+        [[params.experience.list.items]]
+        details = "Blended and Combined data using Alteryx from different sources like Workday, SAP BPC, Salesforce, SAP Fiori, Oracle Primavera P6 & published those DataMart (HANA Models) on tableau server for visualizations."
+        [[params.experience.list.items]]
+        details = "Build Different Dashboards for Hire and Attritions, Labor Utilization, Open requisitions, P6 Labor Forecast, Timesheet based on Different Locations, Department and Projects."
+        [[params.experience.list.items]]
+        details = "Published the developed dashboards into production and ensured the data was up to date by scheduling extract refreshes, performed performance tuning of the dashboard and Created Subscriptions & Alerts"
+        [[params.experience.list.items]]
+        details = "Created a variety of machine learning models to understand why Engineers are attiring and to predict associates that are most likely to attrite in the next 6 months."
+        [[params.experience.list.items]]
+        details = "Time series forecasting of head counts, attrition, and transfers to project hiring needs as part of workforce planning using auto regressive and survival models"
+   
+        
+       [[params.experience.list]]
+        title = "Machine Learning Engineer"
+        dates = "Dec 2018 - Jun 2019"
+        company = "AAA Life Insurance (AAAL)"
+        details = "Project : Predictive Model for Faster Insights: Analyzes records from Agents & DSU channels & build a predictive model to assist the user in forecasting what the sales will be at the end of the month based on what has been submitted so far during the month. "
+        [[params.experience.list.items]]
+        details = "Participated in all phases of data mining, data cleaning, data collection, developing models, validation, and visualization and performed Gap analysis."
+        [[params.experience.list.items]]
+        details = "Ingested the CSV files into AWS S3 and used AWS Athena to combine and Query against those tables."
+        [[params.experience.list.items]]
+        details = "Performed Featured engineering & Missing Value Treatment(Impute missing value with mean/ median)"
+        [[params.experience.list.items]]
+        details = "Built Machine Learning models classification models like XGBoost, SVM, and Random Forest."
+        [[params.experience.list.items]]
+        details = "Design and Prepared Tableau visualizations and shared hidden trends and insights to C level"
+   
+   
+   
+        [[params.experience.list]]
+        title = "Data Engineer"
+        dates ="2017-2018"
+        company = "Large State-Wide Health Insurance Payer"
+        details = "Project : Analysis and Visualization of Employer Group (EG) : Consolidate data & Analyze across variety of subject areas, Including Membership, Medical /Drug/Vision/Dental Claims, Medical Episodes, Clinical Conditions, High Cost Claimants, Member Risk Scores (MARA) & Other Factors "
+        [[params.experience.list.items]]
+        details = "Designed and worked on the SQL scripts and table querying to develop new Database tables, views as per the Business requirements."
+        [[params.experience.list.items]]
+        details = "Created different DataMart like Member Coverage , Medical Claim, Drug Claim ,Dental Claim ,Vision Claim, Medical Episodes"
+        [[params.experience.list.items]]
+        details = "Using DataMart Developed around 25 Dashboards focusing on analyzing different metrices like membership ,risk scores ,claims, Paid PMPM, Allowed PMPM, Demographics etc."
+        [[params.experience.list.items]]
+        details = "Used Tableau features like different types of charts including Crosstab's, Heat/Geo/Tree Maps, Pie/Bar Charts, Circle Views, Line/Area Charts, Scatter Plots, Bullet Graphs Histograms, Parameters, Filters etc."
+        [[params.experience.list.items]]
+        details = "Published Dashboard on tableau server (Provider portal) & implemented row level security to compliance with PHI."
+   
+        
+        [[params.experience.list]]
+        title = "Data Analytics Engineer"
+        dates ="2017-2018"
+        company = "TESCHglobal LLC & NCQA"
+        details = "Zoster (VZV) Vaccination Grant: Analyze & Utilize Population Health Data (Commercial, Medicare & Medicaid Population) to Increase Varicella Zoster Immunization Rates "
+        [[params.experience.list.items]]
+        details = "Analyzed and wrote Advanced SQL queries to combine the data on Eligibility, Membership, Demographics, Provider and Timeline. Created Stored Procedure and Views for the reporting and analysis."
+        [[params.experience.list.items]]
+        details = "Design and developed dashboards to understand different population, Members, Patient Provider Attribution and Different Stratification using different feature of tableau like Dual Axis, Bar Graphs, ScatterPlots, Pie-Charts, Heat Maps, Bubble Charts, Tree Maps, Funnel Charts, Box Plots etc."
+        [[params.experience.list.items]]
+        details = "Implemented Quick Filters, Cascading Filters, Context Filters and Data Source Filters while handling huge volume of data. Also Developed Tableau workbooks to perform year over year, YTD, QTD and MTD type of analysis. Utilized Level of Details(LOD), Calculation, Table Calculations , Parameters , Actions filters.."
+        [[params.experience.list.items]]
+        details = "Shared the results using tableau Provider Portal and Created Subscriptions and Alerts as the need.."
+
+
+
+        [[params.experience.list]]
+        title = "Business Intelligence(BI) Developer" 
+        dates = "Jan 2015 - Jan 2016"
+        company = "Atos Consulting"
+        [[params.experience.list.items]]
+        details = "Used Tableau Desktop as a front-end BI tool and MS SQL Server 2012 as a back-end database to design and develop workbooks, dashboards, global filter page, and complex parameters -based calculations."
+        [[params.experience.list.items]]
+        details = "Defined best practices for Tableau report development. Scheduled data refresh on Tableau server for weekly and monthly increments based on the new changes to ensure that the views and dashboards were displaying the changed data accurately.."
+        [[params.experience.list.items]]
+        details = "Experience working with large databases & data warehouses such as MS SQL Server, Oracle, SAP HANA"
+        [[params.experience.list.items]]
+        details = "Created solution driven dashboards by developing different chart types including Crosstab's, Heat/Geo/Tree Maps, Pie/Bar Charts, Circle Views, Line/Area Charts, Scatter Plots, Bullet Graphs, and Histograms"
+
+        [[params.experience.list]]
+        title = "Business Intelligence(BI) Developer"
+        dates = "Aug 2013 -Dec 2014"
+        company = "SVS Global Softech LLP"
+        [[params.experience.list.items]]
+        details = "Created and deployed SSIS packages utilizing various transformations such as multicast, merge join,lookup, fuzzy lookup, fuzzy grouping, slowly changing dimension, and derived column.."
+        [[params.experience.list.items]]
+        details = "Involved in modifying the SSIS packages and optimizing the package to fetch better performance and results."
+        [[params.experience.list.items]]
+        details = "Troubleshooting the long running queries and stored procedures to increase the performance by adding the index (Clustered, Non-clustered and Covering index) or by changing the query logic on need basis"
+        [[params.experience.list.items]]
+        details = "Developed complex Stored Procedures to generate various Drill -through reports, parameterized reports,Cascading Parameterized reports, sub-reports & linked reports using SSRS"
+
+        [[params.experience.list]]
+        title = "Business Intelligence(BI) Developer"
+        dates = "July 2008 - Aug 2010"
+        company = "Eifochips"
+        [[params.experience.list.items]]
+        details = "Developed various types of reports like drill down, matrix, cross tab, ad hoc, Parameterized and cascading reports using SSRS. Also Created Tabular reports, Cross Tab Reports and Sub Reports.."
+        [[params.experience.list.items]]
+        details = "Identified dimension, fact tables and designed data warehouse using Star/Snowflake schema."
+        [[params.experience.list.items]]
+        details = "Created SSIS Packages to import and export data from Excel Spreadsheets, Text files and CSV files"
+        [[params.experience.list.items]]
+        details = "Used tables, views, indexes, stored procedures, triggers, used different joins to retrieve data from tables."
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "COVID-19 Analytics"
+        meta = "Open Source"
+        tagline = "Build COVID-19 Tracker Using Tableau to track the cases, Deaths, recovered patients on Country, States and County level . Also Used Machine Learning Algorithms like SVM , Ridge and Lasso regression to predict next 10 days cases."
+
+        [[params.projects.list]]
+        title = "Opioid Analytics and Risk Modelling"
+        meta = "Open Source"
+        tagline = "Ingested the data into Azure MS SQL Server, Performed Data Analytics To Surface High-Risk Members in Order To Reduce Their At-Risk Status.Performed analysis on individual patients or members , Providers or prescribers, Pharmacies and Social groups."
+
+        [[params.projects.list]]
+        title = "Deep Learning to Predict Stock Price Movement"
+        meta = "Open Source"
+        tagline = "Try to predict the price movements of JPMorgan Chase & Co. (NYSE: JPM) using Generative Adversarial Network (GAN) with LSTM, a type of Recurrent Neural Network, as generator, and a Convolutional Neural Network, CNN, as a discriminator."
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Certification"
+         [[params.information.list.items]]
+        details = "AWS Certified Machine Learning – Specialty"
+        [[params.information.list.items]]
+        details = "Tableau Desktop Qualified Associate"
+        [[params.information.list.items]]
+        details = "AWS Solutions Architect Associate"
+         [[params.information.list.items]]
+        details = "Coursera-Data Science Certification"
+         [[params.information.list.items]]
+        details = "Coursera-Machine Learning Certification"
+         [[params.information.list.items]]
+        details = "Coursera-Deep Learning Certification"
+         [[params.information.list.items]]
+        details = "Microsoft-PowerBI Certification"
+         [[params.information.list.items]]
+        details = "Microsoft-BI Certification (SSIS,SSRS)"
+         [[params.information.list.items]]
+        details = "DataRobot-Data Science Certification"
+        
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/DataS07"
+        title = "Github"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/sanjay-kumar-574a6b32/"
+        title = "Linkedin"
+        [[params.social.list]]
+        icon = "fab fa-medium"
+        url = "https://medium.com/@sanjay.kumar1625"
+        title = "Medium"
+        [[params.social.list]]
+        icon = "fab fa-twitter"
+        url = "https://twitter.com/BrilliantAnaly1"
+        title = "Twitter"
+
+
+
+
